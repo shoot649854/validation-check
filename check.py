@@ -1,6 +1,9 @@
 from validation import * 
 
 
-def test_answer():
+def main():
     val = Validation()
     assert val.add(3, 2) == 5
+
+if("__name__" == "__main__"):
+    main()
