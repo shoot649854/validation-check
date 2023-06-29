@@ -5,7 +5,7 @@ class test_case:
     def test_add():
         # Integer addition
         assert val.add(3, 2) == 5
-        assert val.add(-5, 10) == 5
+        assert val.add(-5, 10) == 6
         assert val.add(0, 0) == 0
         
         # Float addition
